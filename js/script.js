@@ -127,3 +127,16 @@ window.onclick = event => {
 
 // Event Listener
 getImagesBtn.addEventListener('click', fetchAPOD);
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Example: Select an element and add a click event listener
+  const myElement = document.getElementById('myElementId');
+  if (myElement) {
+    myElement.addEventListener('click', function() {
+      // Event handler code goes here
+    });
+  } else {
+    // This will show in the console if the element is not found
+    console.error('Element with ID "myElementId" not found.');
+  }
+});
