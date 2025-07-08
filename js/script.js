@@ -1,4 +1,4 @@
-const API_KEY = '386740d8'; // User's actual NASA API key
+const API_KEY = 'CiT27T5fvzIgfDABxg5axCev4KGnrKECRUdc954T'; // User's new NASA API key
 const API_URL = 'https://api.nasa.gov/planetary/apod';
 
 const gallery = document.getElementById('gallery');
