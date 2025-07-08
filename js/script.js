@@ -1,4 +1,4 @@
-const API_KEY = '386740dB'; // Replace with your actual key if you have one
+const API_KEY = '386740d8'; // User's actual NASA API key
 const API_URL = 'https://api.nasa.gov/planetary/apod';
 
 const gallery = document.getElementById('gallery');
@@ -140,11 +140,3 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error('Element with ID "myElementId" not found.');
   }
 });
-
-// Button to trigger image fetch
-const button = document.createElement('button');
-button.id = 'getImages';
-button.textContent = 'Get Space Images';
-button.className = 'get-images-btn';
-document.body.appendChild(button);
-<button id="getImages">Get Space Images</button>
