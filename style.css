@@ -142,3 +142,11 @@ button:hover {
   font-size: 48px;
   margin-bottom: 20px;
 }
+
+.gallery-img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.gallery-img:hover {
+  transform: scale(1.08);
+}
