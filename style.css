@@ -223,6 +223,18 @@ button:hover {
   margin-bottom: 8px;
 }
 
+/* Visually hidden class for accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 /* Responsive design for tablet and mobile */
 @media (max-width: 900px) {
   .container {
