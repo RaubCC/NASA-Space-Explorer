@@ -140,3 +140,11 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error('Element with ID "myElementId" not found.');
   }
 });
+
+// Button to trigger image fetch
+const button = document.createElement('button');
+button.id = 'getImages';
+button.textContent = 'Get Space Images';
+button.className = 'get-images-btn';
+document.body.appendChild(button);
+<button id="getImages">Get Space Images</button>
